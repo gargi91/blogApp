@@ -1,0 +1,11 @@
+.container {
+	max-width: 120rem;
+	margin: 8rem auto;
+	background-color: var(--color-primary-base);
+	box-shadow: var(--shadow-dark);
+	border-radius: var(--border-radius);
+	min-height: 80rem;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 20% 1fr;
+}

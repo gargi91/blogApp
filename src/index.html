@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="sass/main.scss" />
+		<title>Blog | Home</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Side Nav -->
+			<aside class="sidebar">
+				<div class="profile">
+					<div class="profile__pic">
+						<img src="images/profile-2.jpg" alt="user profile" />
+					</div>
+					<div class="date-time">
+						<div class="date heading--2">Feb 02, 2021</div>
+						<div class="time heading--4">08:43 am</div>
+					</div>
+				</div>
+				<nav class="nav">
+					<!-- side nav component -->
+					<ul class="side-nav">
+						<li class="side-nav__item side-nav__item--active">
+							<a href="#" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-home"></use>
+									</svg>
+								</div>
+								<span class="heading--2">Home</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-globe"></use>
+									</svg>
+								</div>
+								<span class="heading--2">International</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-trending-up"></use>
+									</svg>
+								</div>
+								<span class="heading--2">Business</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-health"></use>
+									</svg>
+								</div>
+								<span class="heading--2">Health</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-sports"></use>
+									</svg>
+								</div>
+								<span class="heading--2">Sports</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-user"></use>
+									</svg>
+								</div>
+								<span class="heading--2">Account</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="create-post.html" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-write"></use>
+									</svg>
+								</div>
+								<span class="heading--2">Create Post</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<div class="side-nav__icon">
+									<svg>
+										<use xlink:href="images/icons.svg#icon-settings"></use>
+									</svg>
+								</div>
+								<span class="heading--2">Settings</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</aside>
+
+			<!-- main section -->
+			<main class="main">
+				<header class="header">
+					<!-- Welcome msg -->
+					<div class="greet">
+						<img src="images/dawn.png" alt="Rising Sun" class="greet__img" />
+						<div class="greet__msg heading--1">Good Morning, <span>Rose</span></div>
+					</div>
+
+					<!-- search -->
+
+					<form class="search">
+						<input type="text" placeholder="Search for articles" class="search__input input" />
+						<button type="submit" class="search__icon">
+							<svg>
+								<use xlink:href="images/icons.svg#icon-search"></use>
+							</svg>
+						</button>
+					</form>
+				</header>
+
+				<!-- content body -->
+
+				<section class="section-home">
+					<a href="" class="blog-latest">
+						<img src="images/blog-latest.jpg" alt="Featured Image" />
+						<div class="content">
+							<h4 class="content__tag heading--4">Architecture</h4>
+							<h2 class="content__title heading--2">
+								Ground breaking building is a classic example of English architecture
+							</h2>
+							<div class="content__author">
+								<img src="images/profile-1.jpg" alt="Author Picture" />
+								<div class="content__author-data">
+									<h3 class="heading--3">Sarah Jane</h3>
+									<h4 class="heading--4">July 14, 2019</h4>
+								</div>
+							</div>
+						</div>
+					</a>
+					<div class="capsule">
+						<div class="capsule__link">
+							<svg class="capsule__icon">
+								<use xlink:href="images/icons.svg#icon-document"></use>
+							</svg>
+							<div class="capsule__brief">
+								<h3 class="heading--3">Tuesday Capsule</h3>
+								<h4 class="heading--4">Get updated on the fly</h4>
+								<a href="" class="capsule__brief-link">Brief me &rarr;</a>
+							</div>
+						</div>
+						<div class="capsule__weather">
+							<h3 class="heading--3">Amsterdam, Netherlands</h3>
+
+							<div class="capsule__weather-data">
+								<svg class="capsule__icon">
+									<use xlink:href="images/icons-weather.svg#icon-cloud"></use>
+								</svg>
+								<div class="capsule__report">
+									<h2 class="heading--2">28&deg;C</h2>
+									<h4 class="heading--4">Cloudy day, chances of rain</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- News letter -->
+					<div class="newsletter">
+						<h2 class="heading--2">Subscribe to Newsletter</h2>
+						<form class="subscribe">
+							<input type="text" placeholder="Your email" class="subscribe__input input" />
+							<button type="submit" class="subscribe__icon">
+								<svg>
+									<use xlink:href="images/icons.svg#icon-mail"></use>
+								</svg>
+							</button>
+						</form>
+					</div>
+					<a class="blog-1 blog-top" href="post.html">
+						<img src="images/blog-1.jpg" alt="Vegies" />
+						<div class="blog-top__content">
+							<div class="blog-top__views">
+								<svg>
+									<use xlink:href="images/icons.svg#icon-eye"></use>
+								</svg>
+								<h4 class="heading--4">14,543</h4>
+							</div>
+							<h3 class="blog-top__title heading--3">The benifits of Cauliflower</h3>
+						</div>
+					</a>
+					<a class="blog-2 blog-top">
+						<img src="images/blog-2.jpg" alt="Plant" />
+						<div class="blog-top__content">
+							<div class="blog-top__views">
+								<svg>
+									<use xlink:href="images/icons.svg#icon-eye"></use>
+								</svg>
+								<h4 class="heading--4">10,213</h4>
+							</div>
+							<h3 class="blog-top__title heading--3">Let us plant more trees this year</h3>
+						</div>
+					</a>
+					<a class="featured-blog">
+						<div class="featured-blog__container">
+							<div class="featured-blog__content">
+								<div class="featured-blog__tag">Featured</div>
+								<h2 class="featured-blog__title heading--2">
+									Natural mood regulation low or even absent in people with depression
+								</h2>
+								<p class="text text--secondary">
+									Mood varies from hour-to-hour and healthy mood regulation involves chosing
+									activities that helps settle ones mood
+								</p>
+							</div>
+							<img src="images/featured-blog.png" alt="Sad Girl" class="featured-blog__img" />
+						</div>
+					</a>
+					<div class="top-author">
+						<h3 class="heading--3">Author</h3>
+						<h4 class="heading--4">of the month</h4>
+						<figure class="top-author__figure">
+							<img src="images/top-author.jpg" alt="top-author Image" class="top-author__img" />
+							<h3 class="heading--3 top-author__name">Benjamin Pete Jonas</h3>
+						</figure>
+						<a href="" class="top-author__link">Know more &rarr;</a>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>

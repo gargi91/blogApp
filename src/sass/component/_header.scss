@@ -1,0 +1,45 @@
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 7rem;
+	.greet {
+		display: flex;
+		align-items: center;
+		&__img {
+			width: 3.2rem;
+			margin-right: 1rem;
+		}
+		&__msg {
+			span {
+				color: var(--color-grey-dark1);
+			}
+		}
+	}
+
+	.search {
+		display: flex;
+		align-items: center;
+
+		&__input {
+			width: 20rem;
+		}
+
+		&__icon {
+			background-color: var(--color-primary);
+			align-self: stretch;
+			width: 4rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 5px;
+			transform: translateX(-1rem);
+			svg {
+				width: 1.75rem;
+				height: 1.75rem;
+				fill: var(--color-primary-base);
+			}
+		}
+	}
+}

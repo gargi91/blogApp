@@ -1,0 +1,68 @@
+// Variables
+
+:root {
+	--color-primary: #4c6fff;
+	--color-secondary: #8d8e6a;
+	--color-secondary-light: #e8e9cb;
+	--color-grey-light-1: #edf0f0;
+	--color-grey-light-2: #b2b9c7;
+	--color-grey-dark1: #74899d;
+	--color-grey-dark2: #3b3f39;
+	--color-primary-base: #fff;
+
+	--font: "Open Sans", sans-serif;
+	--shadow-dark: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+		0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+		0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+	--shadow-light: 0 2.6px 8.5px rgba(0, 0, 0, 0.032), 0 21px 68px rgba(0, 0, 0, 0.06);
+
+	// font weights : 400, 600, 700
+
+	--border-radius: 2rem;
+	--border-radius-s: 1rem;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; // 10px/16px = 62.5%  ---- 1rem = 10px
+}
+
+body {
+	line-height: 1.4;
+	font-family: var(--font);
+	font-weight: 400;
+	min-height: 100vh;
+	color: var(--color-grey-dark2);
+	background-color: var(--color-grey-light-2);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	letter-spacing: 0.6px;
+}
+
+button {
+	outline: none;
+	border: none;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
